@@ -3,10 +3,10 @@ import { Avatar, Indicator } from '@mantine/core';
 import NavLinks from './NavLinks';
 const Header = () => {
     return (
-        <div className="w-full bg-mine-shaft-950 px-6 text-white h-20 flex justify-between items-center">
+        <div className="w-full bg-mine-shaft-950 px-6 text-white h-20 flex justify-between items-center font-['poppins']">
             <div className='flex gap-1 item-center text-bright-sun-400'>
                 <IconBrandItch className='h-8 w-8' stroke={2.5} />
-                <div className='text-2xl font-semibold'>CareerHub</div>
+                <div className='text-3xl font-semibold'>CareerHub</div>
 
             </div>
             <NavLinks />
